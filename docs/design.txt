@@ -1,0 +1,13 @@
+PROBLEM STATEMENT:
+
+The program will manage weekly bowling scores for players. The program will display a menu that allows a user to view the scores of all players, including their IDs, first names, last names, individual scores for up to four games, and average scores. If they choose an invalid option, it will display "Invalid choice. Please enter a number between 1 and 6." 
+
+Users will be able to add a new player to the database by providing their first name and last name and when completed will display "Player added successfully." 
+
+Users will be able to add a score to an existing player by specifying the player's ID and the score for a particular game (score1, score2, score3, or score4). If a user chooses invalid player ID, it will display "Invalid input. Player ID does not exist. Please try again." If a user chooses a score column other than what's available, it will display "Invalid input. Please enter one of the following options: score1, score2, score3, or score4." and will prompt user to re-enter available options.  If user enters score for a column that already has data, it will display "Score already exists in {column}. Please enter menu option 4 to update the score." If executed properly, it will display "Score updated successfully." and "Average score updated successfully."
+
+Users will be able to edit a player's score by specifying the player's ID, the column (score1, score2, score3, or score4) to edit, and the new score. If a user chooses invalid player ID, it will display "Invalid input. Player ID does not exist. Please try again." If a user chooses a score column other than what's available, it will display "Invalid input. Please enter one of the following options: score1, score2, score3, or score4." and will prompt user to re-enter available options. If executed properly, it will display "Score updated successfully." and "Average score updated successfully."
+
+Users can delete a player from the database by specifying the player's ID. If a user chooses invalid player ID, it will display "Invalid input. Player ID does not exist. Please try again." If executed properly, it will display "Player deleted successfully."
+
+User will be able to terminate the program. Once program is terminated properly, it will display "Exiting program. Goodbye!"
